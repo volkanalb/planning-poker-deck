@@ -1,31 +1,32 @@
 :root {
-  --main-tech-theme-color: #1565C0; 
-  --main-dark-theme-color: #44475a; 
-  --main-eletric-theme-color: #EC407A; 
+  --main-tech-theme-color: #1565c0;
+  --main-dark-theme-color: #44475a;
+  --main-eletric-theme-color: #ec407a;
 
-  --secondary-dark-theme-color: #6272A4;
-  --accent-dark-theme-color: #BD93F9;
+  --secondary-dark-theme-color: #6272a4;
+  --accent-dark-theme-color: #bd93f9;
 
-  --success-tech-theme-color: #66BB6A; 
-  --success-dark-theme-color: #50fA7B;
-  --success-eletric-theme-color: #EC407A;  
+  --success-tech-theme-color: #66bb6a;
+  --success-dark-theme-color: #50fa7b;
+  --success-eletric-theme-color: #ec407a;
 
-  --danger-tech-theme-color: #E57373; 
-  --danger-dark-theme-color: #FF5555;
-  --danger-eletric-theme-color: #AB47BC;
-  
-  --light-text: #F8F8F2;
-  --dark-text: #282A36;
+  --danger-tech-theme-color: #e57373;
+  --danger-dark-theme-color: #ff5555;
+  --danger-eletric-theme-color: #ab47bc;
 
-  --light-background: #FFFFFF;
-  --dark-background: #282A36;
+  --light-text: #f8f8f2;
+  --dark-text: #282a36;
+
+  --light-background: #ffffff;
+  --dark-background: #282a36;
 }
 
 * {
   margin: 0;
   padding: 0;
-  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   outline: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 select {
