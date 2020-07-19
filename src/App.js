@@ -13,6 +13,7 @@ import Played from "./containers/Played";
 import Decks from "./containers/Decks";
 import Config from "./containers/Config";
 import Server from "./containers/Server";
+import ServerPlay from "./containers/ServerPlay";
 
 /** Contexts */
 import { ThemeContext } from "./Contexts";
@@ -463,6 +464,7 @@ class App extends Component {
   );
 
   renderServer = () => <Server />;
+  renderServerPlay = () => <ServerPlay />;
 
   render() {
     const confirmBox = (
@@ -502,6 +504,11 @@ class App extends Component {
                 <Route path="/decks" exact render={this.renderDecks} />
                 <Route path="/config" exact render={this.renderConfig} />
                 <Route path="/online" exact render={this.renderServer} />
+                <Route
+                  path="/online/play"
+                  exact
+                  render={this.renderServerPlay}
+                />
                 {confirmBox}
                 {toastr}
               </div>

@@ -11,10 +11,10 @@
 }
 
 .cardContainer {
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
   -o-perspective: 800px;
@@ -36,10 +36,10 @@
 }
 
 .card.flipped {
-  -webkit-transform: rotateY( 180deg );
-  -moz-transform: rotateY( 180deg );
-  -o-transform: rotateY( 180deg );
-  transform: rotateY( 180deg );
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card .front,
@@ -53,8 +53,8 @@
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 5px solid #FFF;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border: 5px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .card .back {
@@ -75,9 +75,9 @@
 }
 
 .cardWrapper .close button {
-  background-color: #EF5350;
+  background-color: #ef5350;
   border-radius: 50%;
-  color: #FFF;
+  color: #fff;
   width: 25px;
   height: 25px;
   border: 0px;
@@ -89,7 +89,7 @@
   font-size: 10px;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .cardWrapper .close button.hidden {
@@ -104,6 +104,15 @@
   top: 20px;
   -webkit-transition: all ease-out;
   transition: all ease-out;
+}
+
+.cardXs {
+  height: 70px;
+}
+
+.cardXs .cardNumber {
+  font-size: 24px;
+  line-height: 60px;
 }
 
 .cardSm {
@@ -124,7 +133,6 @@
   line-height: 100px;
 }
 
-
 .wrapperLg {
   padding: 30px 40px;
   max-width: 315px;
@@ -140,26 +148,30 @@
   line-height: 375px;
 }
 
-.wrapperLg .card .front, .wrapperLg .card .back {
+.wrapperLg .card .front,
+.wrapperLg .card .back {
   height: calc(100% - 30px);
   width: calc(100% - 30px);
-  border: 15px solid #FFF
+  border: 15px solid #fff;
 }
 
 /* Tech theme */
-.card.tech-theme .front, .card.tech-theme .back {
+.card.tech-theme .front,
+.card.tech-theme .back {
   background-color: var(--main-tech-theme-color);
-  color: #FFF;
+  color: #fff;
 }
 
 /* Dark theme */
-.card.dark-theme .front, .card.dark-theme .back {
+.card.dark-theme .front,
+.card.dark-theme .back {
   background-color: var(--main-dark-theme-color);
-  color: #FFF;
+  color: #fff;
 }
 
 /* Eletric theme */
-.card.eletric-theme .front, .card.eletric-theme .back {
+.card.eletric-theme .front,
+.card.eletric-theme .back {
   background-color: var(--main-eletric-theme-color);
-  color: #FFF;
+  color: #fff;
 }
